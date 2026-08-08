@@ -5,11 +5,12 @@ class Gamer:
     def __init__(self, nome, nick):
         self.nome = nome
         self.nick = nick
-        self.favoritos = []
+        self.favoritos = []         #é possíel criar lista, tuplas e dicionários como atributo para armazenar informações
 
     
     def add_favoritos(self, jogo):
         self.favoritos.append(jogo) 
+        
 
     def ficha(self):
         texto = "\n".join(f":video_game: {jogo}" for jogo in self.favoritos)
@@ -18,7 +19,7 @@ class Gamer:
 #            texto += jogo + "\n"
 
         conteudo = (
-            f"Nome real: {self.nome}\n"
+            f"Nome real: [black on blue] {self.nome} [/]\n"
             f"Jogos Favoritos:\n"
             f"[blue]{texto}[/]"
         )
