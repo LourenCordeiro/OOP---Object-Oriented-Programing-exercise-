@@ -39,3 +39,4 @@ j2 = Gamer("Olívia Souza", "peach_raivosa")
 j2.add_favoritos("Mario Bros")
 j2.add_favoritos("Call of Duty")
 j2.ficha()
+
