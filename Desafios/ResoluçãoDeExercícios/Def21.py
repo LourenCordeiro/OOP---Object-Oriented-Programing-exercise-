@@ -38,6 +38,57 @@ print(c2.escrever("Como foi seu dia?"))
 print(c3.escrever("Como foi o trabalho?"))
 
 
+#resolução realizada pelo proessor trouxe o uso de "macth/escolha/case" sendo uma alternativa para o uso de laço que eu fiz
+
+#from rich import print
+
+#class Caneta:
+#    def __init__(self, cor='azul'):
+#        escolha = ""
+#        match cor.lower().strip():
+#            case "azul":
+#                escolha = "[blue]"
+#            case "vermelho" | "vermelha":
+#                escolha = "[red]"
+#            case "verde":
+#                escolha = "[green]"
+#            case _:                              #esse comando faz com que quando n seja escolhido nenhuma cor definida ela seja branca 
+#                escolha = "[white]"         
+        
+#        self.cor = escolha
+#        self.tampada = True
+
+#    def escrever(self, msgn):
+#        if self.tampada:
+#            print(f":prohibited: A {self.cor}caneta[/] está tampada! ")
+#        else:
+#            print(f"{self.cor}{msgn}[/]", end='')
+
+#    def quebrar_linha(self, qtd=1):
+#        print("\n" * qtd, end="")
+
+#    def tampar(self):
+#        self.tampada = True
+
+#    def destampar (self):
+#        self.tampada = False
+
+
+#c1 = Caneta('azul')
+#c2 = Caneta('vermelha')
+#c3 = Caneta('verde')
+
+#c1.destampar()
+#c2.destampar()
+#c3.destampar()
+
+#c1.escrever('Olá, Mundo!')
+#c1.quebrar_linha(2)
+#c2.escrever('Exercício funcional para aprender o uso efetivo de funções e objetos.')
+#c2.quebrar_linha(2)
+#c3.escrever('Informação de "Case" é nova e muito interessante.')
+
+
 
 
 
