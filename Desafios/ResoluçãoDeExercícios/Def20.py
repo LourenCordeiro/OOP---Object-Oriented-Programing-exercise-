@@ -5,7 +5,7 @@ class Gamer:
     def __init__(self, nome, nick):
         self.nome = nome
         self.nick = nick
-        self.favoritos = []         #é possíel criar lista, tuplas e dicionários como atributo para armazenar informações
+        self.favoritos = []         #é possível criar lista, tuplas e dicionários como atributo para armazenar informações
 
     
     def add_favoritos(self, jogo):
